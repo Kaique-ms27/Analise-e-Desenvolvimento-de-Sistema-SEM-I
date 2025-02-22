@@ -1,5 +1,5 @@
 /* Estilização do Body da página*/
-body {
+* {
   margin: 0;
   border: 0;
   font-family: "Tahoma", "Arial";
@@ -9,13 +9,12 @@ body {
 header {
   background: linear-gradient(
     0deg,
-    rgba(255, 215, 0, 1) 0%,
-    rgba(221, 172, 23, 1) 8%,
-    rgba(252, 156, 162, 1) 43%,
-    rgba(252, 156, 162, 1) 100%
+    rgba(246, 197, 200, 1) 5%,
+    rgba(220, 173, 148, 1) 53%,
+    rgba(230, 190, 138, 1) 93%
   );
+
   padding: 10px;
-  /* box-shadow: 0px 0px 100px #000000 !important; */
 }
 
 /* Estilização da Logo*/
@@ -23,7 +22,6 @@ header {
   border-radius: 100%;
   width: 10%;
   padding-left: 40px;
-  /*box-shadow: 0 0 3px rgba(0, 0, 0, 1);*/
 }
 
 /* Estilização do Menu do Site */
@@ -49,4 +47,27 @@ nav li {
   height: 250px;
   object-fit: cover;
   background-image: url(https://www.laroche-posay.com.br/-/media/project/loreal/brand-sites/lrp/america/br/oncology/side-effects/lrp-oncology-2021-sitecore-side_effects_nails-header_banner.jpg);
+}
+
+/* Estilização Sobre nós */
+.sobre_nos {
+  margin: 0;
+  text-align: justify;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.img_sobre_nos {
+  width: 25%;
+  padding: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+.titulo_sobre_nos {
+  text-align: center;
+}
+
+.p_sobre_nos {
+  padding: 15px 10px 10px 10px;
 }
