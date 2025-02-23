@@ -38,6 +38,11 @@ nav li {
   margin-right: 100px;
 }
 
+a{
+  text-decoration: none;
+  color: #9d574b;
+}
+
 /* Estilização da Div do header */
 .divHeader {
   position: relative;
@@ -58,7 +63,7 @@ nav li {
 }
 
 .img_sobre_nos {
-  width: 25%;
+  width: 30%;
   padding: 10px;
   float: left;
   margin-right: 10px;
