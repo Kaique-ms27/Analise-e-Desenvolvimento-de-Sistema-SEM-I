@@ -9,7 +9,7 @@
 header {
   background: linear-gradient(
     0deg,
-    rgba(246, 197, 200, 1) 5%,
+    rgba(246, 197, 200, 100) 5%,
     rgba(220, 173, 148, 1) 53%,
     rgba(230, 190, 138, 1) 93%
   );
@@ -71,8 +71,24 @@ a{
 
 .titulo_sobre_nos {
   text-align: center;
+  padding: 10px;
 }
 
 .p_sobre_nos {
   padding: 15px 10px 10px 10px;
+}
+
+main {
+  background: rgb(246,197,200);
+  background: linear-gradient(0deg, rgba(246,197,200,1) 2%, rgba(255,255,255,1) 71%);
+  /* 2% and 71% */
+}
+
+.mapaGeral p {
+  text-align: center;
+  font-size: large;
+}
+
+.mapa {
+  margin-left: 25.5%;
 }
